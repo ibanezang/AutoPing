@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoPing.ConsoleApp", "AutoPing.ConsoleApp\AutoPing.ConsoleApp.csproj", "{92E1D137-616A-41D9-A030-965535792773}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoPing.Service", "AutoPing.Service\AutoPing.Service.csproj", "{F1EC5A54-D2A6-4F23-9F11-7627ADA1317A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{92E1D137-616A-41D9-A030-965535792773}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92E1D137-616A-41D9-A030-965535792773}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92E1D137-616A-41D9-A030-965535792773}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92E1D137-616A-41D9-A030-965535792773}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1EC5A54-D2A6-4F23-9F11-7627ADA1317A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1EC5A54-D2A6-4F23-9F11-7627ADA1317A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1EC5A54-D2A6-4F23-9F11-7627ADA1317A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1EC5A54-D2A6-4F23-9F11-7627ADA1317A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
