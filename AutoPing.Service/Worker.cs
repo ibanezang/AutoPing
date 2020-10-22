@@ -44,12 +44,9 @@ namespace AutoPing.Service
                     _logger.Log(LogLevel.Information, $"Time to live: {options.Ttl}");
                     _logger.Log(LogLevel.Information, $"Don't fragment: {options.DontFragment}");
 
-                    // Send the ping asynchronously.
-                    // Use the waiter as the user token.
-                    // When the callback completes, it can wake up this thread.
                     var reply = await pingSender.SendPingAsync(who, timeout, buffer, options);
 
-                    Console.WriteLine("ping status: {0}", reply.Status);
+                    _logger.Log(LogLevel.Information, $"ping status: {reply.Status}");
                     if (reply.Status == IPStatus.Success)
                     {
                         _logger.Log(LogLevel.Information, $"Address: {reply.Address}");

@@ -33,9 +33,6 @@ namespace AutoPing.ConsoleApp
                 Console.WriteLine("Time to live: {0}", options.Ttl);
                 Console.WriteLine("Don't fragment: {0}", options.DontFragment);
 
-                // Send the ping asynchronously.
-                // Use the waiter as the user token.
-                // When the callback completes, it can wake up this thread.
                 var reply = await pingSender.SendPingAsync(who, timeout, buffer, options);
 
                 Console.WriteLine("ping status: {0}", reply.Status);
